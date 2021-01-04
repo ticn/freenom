@@ -157,7 +157,7 @@ $ git clone https://github.com/luolongfei/freenom.git ./
 # 复制配置文件模板
 $ cp .env.example .env
 
-# 编辑配置文件
+# 编辑配置文件.
 $ vim .env
 
 # .env文件里每个项目都有详细的说明，这里不再赘述，简言之，你需要把里面所有项都改成你自己的。需要注意的是多账户配置的格式：

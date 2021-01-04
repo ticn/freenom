@@ -183,7 +183,7 @@ $ yum list crontabs $$ which crontab && crontab -l
 ```bash
 $ crontab -e
 
-# 任务内容如下
+# 任务内容如下：
 # 此任务的含义是在每天早上9点执行/data/wwwroot/freenom/路径下的run文件
 # 注意：某些情况下，crontab可能找不到你的php路径，下面的命令执行后会在freenom_crontab.log文件输出错误信息，你应该指定php路径：把下面的php替换为/usr/local/php/bin/php（根据实际情况）
 00 09 * * * cd /data/wwwroot/freenom/ && php run > freenom_crontab.log 2>&1
